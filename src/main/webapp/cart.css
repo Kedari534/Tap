@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+  body{
+  background: #FDFCCD;
+  }
+ 
+  .cart-container {
+    width: 80%;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .cart-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .cart-details {
+    flex: 1;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-name {
+    font-size: 1.2rem;
+    color: #AF0000;
+    margin: 0;
+  }
+
+  .cart-price {
+    color: #666;
+    margin-top: 0.5rem;
+  }
+
+  .form {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rempo;
+  position: relative;
+}
+ .form a{
+ position:absolute;
+ right: 0;
+ background: #AF0000;
+ color: white;
+ 
+ }
+ .form a:hover{
+ background: #AF0010;
+ }
+ 
+button, a {
+  text-decoration: none;
+  background-color: #f8f9fa;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.25rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+
+button:hover, a:hover {
+  background-color: #e2e6ea;
+}
+
+input[type="text"] {
+  width: 40px;
+  padding: 0.375rem;
+  border: 1px solid #333;
+  border-radius: 0.25rem;
+  text-align: center;
+  margin: 0 0.25rem;
+}
+
+.cart-price {
+  margin-left: 0.5rem; /* Adjust as needed */
+}
+
+  .cart-total {
+    text-align: right;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  .add{
+    text-align: left;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+    max-width: 100%;
+    
+  }
+  .add a{
+  background: #AF0000;
+  color: white;
+  }
+
+  .checkout {
+    display: block;
+    width: max-content;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: #AF0000;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+  }
+
+  .checkout:hover {
+    background-color: #AF0000;
+  }
+
+  p {
+    text-align: center;
+    color: #888;
+  }
